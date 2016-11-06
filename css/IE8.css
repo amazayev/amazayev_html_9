@@ -1,0 +1,811 @@
+body{
+  background: url(../img/background_960.jpg) no-repeat;
+  width: 1920px;
+}
+
+@font-face{
+    font-family: 'league_gothic';
+    src: url('../fonts/Regular/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts//Regular/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper{
+  width: 960px;
+  height: 2070px;
+  margin: 0 auto;
+}
+
+header{
+  width: 100%;
+  margin-top: 47px;
+  margin-left: -6px;
+}
+
+.header_img{
+  visibility: hidden;
+}
+
+.header_menu{
+  visibility: hidden;
+}
+
+.header_menu_2{
+  position: absolute;
+  top: 63px;
+  left: 970px;
+  max-width: 100%;
+  min-width: 960px;
+}
+
+.header_menu_2 li a{
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+ text-transform: uppercase;
+ font-family: 'league_gothic';
+ font-size: 18px;
+ font-weight: bold;
+ margin-left: 22px;
+ margin-right: 22px;
+ padding: 0 5px 3px 5px;
+ display: inline-block;
+}
+
+.header_menu_2 li a:hover{
+  border-bottom: 3px solid rgb(237, 191, 255);
+}
+
+.header_about_2{
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+
+.header_blog_2{
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+
+.header_products_2{
+  position: absolute;
+  top: 0;
+  left: 290px;
+}
+
+.header_lorem_2{
+  position: absolute;
+  top: 0;
+  left: 415px;
+}
+
+.header_dolor_2{
+  position: absolute;
+  top: 0;
+  left: 570px;
+}
+
+.scroller_h1{
+  color: rgb(254, 254, 254);
+  font-family: "league_gothic";
+  font-size: 44px;
+  letter-spacing: 0;
+  word-spacing: 4px;
+  position: absolute;
+  top: 314px;
+  left: 710px;
+  min-width: 60%;
+}
+
+.scroller_h4{
+  color: rgb(214, 177, 230);
+  text-transform: uppercase;
+  font-family: "league_gothic";
+  font-size: 22px;
+  position: absolute;
+  letter-spacing: -0.5px;
+  top: 395px;
+  left: 710px;
+  height: 24px;
+  min-width: 55%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.switcher{
+  overflow: hidden;
+  height: 100px;
+  min-width: 15%;
+  float: left;
+  position: absolute;
+  top: 765px;
+  left: 1418px;
+}
+
+.switcher .switcher_1{
+  display: block;
+  background: url(../img/header.png);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  left: 12px;
+  top: 7px;
+}
+
+  .switcher .switcher_2{
+    display: block;
+    background: url(../img/header.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 35px;
+    top: -11px;
+  }
+
+  .switcher .switcher_3{
+    display: block;
+    background: url(../img/header.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 56px;
+    top: -29px;
+  }
+
+  .switcher .switcher_4{
+    display: block;
+    background: url(../img/header.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 79px;
+    top: -47px;
+  }
+
+  .switcher .switcher_1:hover{
+    background-position: 0 -22.5px;
+    margin-top: -1px;
+  }
+
+  .switcher .switcher_2:hover{
+    background-position: 0 -24px;
+    margin-top: 0;
+  }
+
+  .switcher .switcher_3:hover{
+    background-position: 0 -24px;
+    margin-top: 0;
+  }
+
+  .switcher .switcher_4:hover{
+    background-position: 0 -24px;
+    margin-top: 0;
+  }
+
+  .scroller_text{
+    display: block;
+    height: 140px;
+    min-width: 400px;
+    max-width: 35%;
+    position: absolute;
+    top: 453px;
+    left: 710px;
+    font-family: sans-serif;
+    font-size: 17.5px;
+    color: rgb(237, 237, 237);
+    letter-spacing: 0.47px;
+    line-height: 1.4;
+    overflow: hidden;
+  }
+
+
+  .About_company{
+    position: absolute;
+    top: 917px;
+    left: 771px;
+    width: 100%;
+  }
+
+  .About_company a{
+    font-family: "league_gothic";
+    font-size: 17px;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .readmore_left{
+    position: absolute;
+    top: 181px;
+    left: 170px;
+  }
+
+  .readmore_center{
+    position: absolute;
+    top: 181px;
+    left: 513px;
+  }
+
+  .readmore_right{
+    position: absolute;
+    top: 181px;
+    left: 850px;
+  }
+
+  .readmore_left:hover, .readmore_center:hover, .readmore_right:hover{
+  filter: progid:DXImageTransform.Microsoft.Glow(color=#cccccc, strength=3), Blur(pixelRadius=1);
+  font-weight: bold;
+  margin-top: -3px;
+  margin-left: -3px;
+  }
+
+  .switcher_left{
+    display: block;
+    background: url(../img/content.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 31px;
+    position: absolute;
+    top: -10px;
+    left: -50px;
+  }
+
+  .switcher_left:hover{
+    background-position: -35px 0;
+  }
+
+  .switcher_center{
+    display: block;
+    background: url(../img/content.png);
+    background-repeat: no-repeat;
+    background-position: -33px 0;
+    width: 43px;
+    height: 31px;
+    position: absolute;
+    top: -10px;
+    left: 285px;
+  }
+
+    .switcher_center:hover{
+      background-position: 10px 0;
+    }
+
+    .switcher_right{
+      display: block;
+      background: url(../img/content.png);
+      background-repeat: no-repeat;
+      background-position: -81px 0;
+      width: 43px;
+      height: 31px;
+      position: absolute;
+      top: -10px;
+      left: 631px;
+    }
+
+    .switcher_right:hover{
+      background-position: 0 0;
+    }
+
+    .About_company p{
+      font-family: "league_gothic";
+      font-size: 19px;
+      color: rgb(254, 254, 254);
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .about_left{
+      position: absolute;
+      left: 12px;
+      top: 66px;
+    }
+
+    .about_center{
+      position: absolute;
+      left: 350px;
+      top: 66px;
+
+    }
+
+    .about_right{
+      position: absolute;
+      left: 687px;
+      top: 66px;
+    }
+
+    .about_headerleft, .about_headercenter, .about_headerright{
+      min-width: 300px;
+      position: absolute;
+      top: -91px;
+    }
+
+    .about_headerleft{
+      position: absolute;
+      left: -1px;
+    }
+
+    .about_left .left_text, .about_center .center_text, .about_right .right_text{
+      position: absolute;
+      top: -37px;
+      left: -2px;
+      font-size: 17px;
+      font-family: sans-serif;
+      font-weight: normal;
+      color: rgb(188, 188, 190);
+      text-transform: none;
+      min-width: 250px;
+      max-width: 30%;
+      height: 120px;
+      white-space: pre-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      line-height: 1.45;
+    }
+
+    .main{
+      margin-top: 50px;
+      position: absolute;
+      top: 1236px;
+      left: 741px;
+      width: 100%;
+      height: 500px;
+      background-image: url(../img/background_main.png);
+      background-repeat: no-repeat;
+    }
+
+    .main_aside{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -19px;
+      left: -63px;
+    }
+
+    .main_aside img{
+      padding-right: 14px;
+      position: absolute;;
+      top: 50px;
+      left: 40px;
+    }
+
+    .main_aside p{
+      font-family: "league_gothic";
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(69, 69, 69);
+      padding-right: 7px;
+      padding-top: 2px;
+    }
+
+    .main_aside .starts{
+      color: rgb(237, 191, 255);
+    }
+
+    .switcher_1{
+      display: block;
+      background: url(../img/switcher.png);
+      background-repeat: no-repeat;
+      width: 27px;
+      height: 31px;
+      position: absolute;
+      left: 167px;
+      top: 293px;
+    }
+
+    .switcher_1:hover{
+      background-position: -23px 0;
+    }
+
+    .switcher_2{
+      display: block;
+      background: url(../img/switcher.png);
+      background-repeat: no-repeat;
+      width: 27px;
+      height: 31px;
+      position: absolute;
+      left: 190px;
+      top: 293px;
+    }
+
+    .switcher_2:hover{
+      background-position: -23px 0;
+    }
+
+    .switcher_3{
+      display: block;
+      background: url(../img/switcher.png);
+      background-repeat: no-repeat;
+      width: 27px;
+      height: 31px;
+      position: absolute;
+      left: 211.5px;
+      top: 293px;
+    }
+
+    .switcher_3:hover{
+      background-position: -23px 0;
+    }
+
+    .switcher_4{
+      display: block;
+      background: url(../img/switcher.png);
+      background-repeat: no-repeat;
+      width: 27px;
+      height: 31px;
+      position: absolute;
+      left: 233.5px;
+      top: 293px;
+    }
+
+    .switcher_4:hover{
+      background-position: -23px 0;
+    }
+
+    .main_updates{
+      color: rgb(69, 69, 69);
+      position: absolute;
+      top: -29px;
+      left: 437px;
+      width: 450px;
+    }
+
+    .main_updates .recent_updates{
+      font-family: "league_gothic";
+      font-size: 24px;
+      text-transform: uppercase;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .main_header, .main_header1, .main_header2{
+      font-family: sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+      position: absolute;
+      left: 76.5px;
+      top: 76px;
+      letter-spacing: 0.3px;
+      word-spacing: 0.1px;
+    }
+
+    .main_header1{
+      position: absolute;
+      top: 142px;
+    }
+
+    .main_header2{
+      position: absolute;
+      top: 206px;
+    }
+
+    .main_text, .main_text1, .main_text2{
+      font-family: sans-serif;
+      font-size: 15.5px;
+      position: absolute;
+      top: 101px;
+      left: 76.5px;
+      width: 500px;
+      word-spacing: -0.7px;
+      letter-spacing: 0.12px;
+    }
+
+    .main_text1{
+      position: absolute;
+      top: 169px;
+      left: 76px;
+      letter-spacing: 0.3px;
+      word-spacing: -1.55px;
+    }
+
+    .main_text2{
+      position: absolute;
+      top: 233px;
+      left: 77px;
+      letter-spacing: 0.3px;
+      word-spacing: -1.55px;
+    }
+
+    .readmore_main{
+      font-family: "league_gothic";
+      color: rgb(69, 69, 69);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase;
+      position: absolute;
+      left: 280px;
+      top: 291px;
+      width: 250px;
+    }
+
+    .line{
+      display: block;
+      position: absolute;
+      left: -1181px;
+      top: 390px;
+    }
+
+    .icons{
+      position: absolute;
+      top: 82px;
+      left: 8px;
+    }
+
+    .logos{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      position: absolute;
+      top: 394px;
+      left: 31px;
+    }
+
+     .logos a img{
+       border: none;
+     }
+
+    .logos a{
+      margin-right: 62px;
+    }
+
+    .third_logo{
+      margin-left: -2px;
+    }
+
+    .forth_logo{
+      margin-left: 2px;
+    }
+
+    .logos .fifth_logo{
+      margin-left: -21px;
+      margin-top: -2px;
+      margin-right: 39px;
+    }
+
+    .footer{
+      display: flex;
+      flex-direction: row;
+      height: 224px;
+      position: relative;
+      top: -197px;
+      left: 693px;
+    }
+
+    .header_menu_3{
+      font-family: "league_gothic";
+      font-size: 21px;
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      position: absolute;
+      top: 315px;
+      left: -40px;
+    }
+
+    .header_menu_3 a{
+      text-decoration: none;
+      color: rgb(254, 254, 254);
+      text-shadow: 1px 2px 3px rgb(89, 89, 94), 0 0 1px black;
+      margin-right: 42px;
+      font-weight: bold;
+      letter-spacing: -0.35px;
+    }
+
+    .header_about_3{
+      position: absolute;
+      top: 0;
+      left: 150px;
+    }
+
+    .header_blog_3{
+      position: absolute;
+      top: 0;
+      left: 265px;
+    }
+
+    .header_products_3{
+      position: absolute;
+      top: 0;
+      left: 375px;
+    }
+
+    .header_lorem_3{
+      position: absolute;
+      top: 0;
+      left: 530px;
+      min-width: 300px;
+    }
+
+    .header_dolor_3{
+      position: absolute;
+      top: 0;
+      left: 725px;
+      min-width: 300px;
+    }
+
+    .signature{
+      position: absolute;
+      top: 333px;
+      left: 940px;
+      width: 600px;
+    }
+
+    .signature p{
+      color: rgb(254, 254, 254);
+      font-size: 14px;
+    }
+
+    .designed_by{
+      font-family: sans-serif;
+      margin-right: 2px;
+      letter-spacing: 0.25px;
+      word-spacing: 2px;
+    }
+
+    .signature .pingbull_as{
+      font-family: "Arial Black";
+      font-size: 14px;
+      font-weight: bold;
+      position: absolute;
+      left: 90px;
+      top: -1px;
+    }
+
+    .more_blog{
+      visibility: hidden;
+    }
+
+      .footer_text .footer_pingbull, .footer_text .footer_er{
+        font-family: "league_gothic";
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+        .footer_text .footer_pingbull{
+          color: rgb(69, 69, 69);
+          position: absolute;
+          top: -24px;
+          left: 0;
+        }
+
+        .footer_text .footer_er{
+          color: rgb(185, 185, 185);
+          position: absolute;
+          top: -24px;
+          left: 144px;
+        }
+
+        .footer_text .footer_copyright{
+          font-size: 17px;
+          font-style: italic;
+          color: rgb(201, 201, 201);
+          position: absolute;
+          top: 50px;
+          left: 0;
+          text-shadow: 0 1px 1px rgb(254, 254, 254), 0 0 0 white;
+        }
+
+    .footer_text .footer_textleft{
+      font-size: 17px;
+      font-family: sans-serif;
+      color: rgb(147, 147, 147);
+      text-transform: none;
+      min-width: 250px;
+      max-width: 320px;
+      height: 120px;
+      white-space: pre-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      line-height: 1.45;
+      position: absolute;
+      top: 80px;
+      left: 0;
+    }
+
+    .footer_text .footer_textcenter{
+      font-size: 17px;
+      font-family: sans-serif;
+      color: rgb(147, 147, 147);
+      text-transform: none;
+      min-width: 250px;
+      max-width: 320px;
+      height: 250px;
+      white-space: pre-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      line-height: 1.45;
+      position: absolute;
+      top: 55px;
+      left: 355px;
+    }
+
+    .footer_text .footer_textright{
+      font-size: 17px;
+      font-family: sans-serif;
+      color: rgb(147, 147, 147);
+      text-transform: none;
+      min-width: 250px;
+      max-width: 320px;
+      height: 250px;
+      white-space: pre-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      line-height: 1.45;
+      position: absolute;
+      top: 55px;
+      left: 695px;
+    }
+
+    .footer_news2, .footer_news3{
+      visibility: hidden;
+    }
+
+    .footer_comments, .footer_news1{
+      font-family: "league_gothic";
+      font-size: 30px;
+      text-transform: uppercase;
+      color: rgb(69, 69, 69);
+    }
+
+    .footer_comments{
+      position: absolute;
+      top: -23px;
+      left: 355px;
+      font-weight: bold;
+    }
+
+    .footer_news1{
+      position: absolute;
+      top: -23px;
+      left: 695px;
+      font-weight: bold;
+    }
+
+    .main_aside .quote_text {
+      font-size: 17px;
+      font-family: sans-serif;
+      color: rgb(147, 147, 147);
+      text-transform: none;
+      min-width: 370px;
+      height: 170px;
+      white-space: pre-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      letter-spacing: -0.38px;
+      word-spacing: 0;
+      line-height: 1.45;
+      position: absolute;
+      top: 95px;
+      left: 110px;
+    }
+
+    .main_pingbuller{
+      position: absolute;
+      top: 35px;
+      left: 110px;
+    }
+
+    .starts{
+      position: absolute;
+      top: 35px;
+      left: 250px;
+      width: 250px;
+    }
