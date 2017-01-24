@@ -530,7 +530,7 @@ header{
     word-spacing: 0.1px;
     letter-spacing: 0.2px;
     width: 220px;
-    height: 20px;
+    height: 18px;
     overflow: hidden;
   }
 
@@ -613,7 +613,7 @@ header{
       left: 129px;
     }
 
-    footer{
+    .footer{
       background-image: url(../img/footer_background480.jpg);
       background-repeat: no-repeat;
       display: flex;

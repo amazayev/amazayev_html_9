@@ -1,0 +1,26 @@
+
+$(function (){
+      var $replaceTo1 = $('div .About_company');
+      var $replaceWith1 = $('<section class = "About_company"><span class="about_left"><p class="about_headerleft">About our company</p><p class="left_text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p></span><span class="about_center"><p class="about_headercenter">About our company</p><p class="center_text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p></span><span class="about_right"><p class="about_headerright">About our company</p><p class="right_text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p></span><a class="switcher_left" href=""></a><a class="switcher_center" href=""></a><a class="switcher_right" href=""></a><a class="readmore_left" href="">Read more</a><a class="readmore_center" href="">Read more</a><a class="readmore_right" href="">Read more</a></div></section>');
+      ($replaceTo1).replaceWith($replaceWith1);
+
+      var $replaceTo2 = $('.main_aside');
+      var $replaceWith2 = $('<figure class = "main_aside"><img src="img/author.jpg"><p class="main_pingbuller">Pingbuller</p><p class="starts">starts here</p><span class="quote_text">"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl."</span></figure>');
+      ($replaceTo2).replaceWith($replaceWith2);
+
+      var $replaceTo3 = $('.main_updates');
+      var $replaceWith3 = $('<figure class = "main_updates"><p class="recent_updates">Recent updates</p><span><p class="main_header">Nunc turpis neque feugiat eget</p><p class="main_text">Posted by Admin on March 13 2012 in Recent News</p></span><span><p class="main_header1">Nunc turpis neque feugiat eget</p><p class="main_text1">Posted by Admin on March 13 2012 In Category</p></span><span><p class="main_header2">Nunc turpis neque feugiat eget</p><p class="main_text2">Posted by Admin on March 13 2012 in Blog Updates</p></span><a class="readmore_main" href="">Read more here</a><a class="more_blog" href="">More blog posts</a><img class="line" src="img/line.png"><img class="icons" src="img/main_icons.jpg"></figure>');
+      ($replaceTo3).replaceWith($replaceWith3);
+
+      var $replaceTo4 = $('.logos');
+      var $replaceWith4 = $('<figure class = "logos"><a href=""><img src="img/first_logo.png"></a><a href=""><img src="img/second_logo.png"></a><a href="" class="third_logo"><img src="img/third_logo.png"></a><a href="" class="forth_logo"><img src="img/forth_logo.png"></a><a href="" class="fifth_logo"><img src="img/fifth_logo.png"></a><a href="" class="sixth_logo"><img src="img/sixth_logo.png"></a></figure>');
+      ($replaceTo4).replaceWith($replaceWith4);
+
+      var $replaceTo5 = $('.signature');
+      var $replaceWith5 = $('<figure class = "signature"><p class="designed_by">Designed by</p><p class="pingbull_as">Pingbull AS</p><a href=""></figure>');
+      ($replaceTo5).replaceWith($replaceWith5);
+
+      var $replaceTo6 = $('.footer');
+      var $replaceWith6 = $('<footer class = "footer"><ul class="header_menu_3"><li class="header_home_3"><a href="">Home</a></li><li class="header_about_3"><a href="">About</a></li><li class="header_blog_3"><a href="">Blog</a></li><li class="header_products_3"><a href="">Products</a></li> <li class="header_lorem_3"><a href="">Lorem ipsum</a></li><li class="header_dolor_3"><a href="">Dolor sit amet</a></li></ul><div class="signature"><p class="designed_by">Designed by</p><p class="pingbull_as">Pingbull AS</p></div><span class="footer_text"><p class="footer_pingbull">Pigbull</p><p class="footer_er">er</p><p class="footer_copyright">Copyright 2013, Pingbull AS</p><p class="footer_textleft">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eqet nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p><p class="footer_textcenter">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eqet nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p><p class="footer_textright">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eqet nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p><p class="footer_comments">Recent comments</p><p class="footer_news1">News categories</p><p class="footer_news2">News categories</p><p class="footer_news3">News categories</p></span></footer>');
+      ($replaceTo6).replaceWith($replaceWith6);s
+    });
